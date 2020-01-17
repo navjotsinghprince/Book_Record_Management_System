@@ -1,0 +1,28 @@
+This is user friendly application Name=Book record management system 
+we can insert,read,update,delete data 
+few terms  we will follow:-
+navigation diagram
+finalize files-how many total files
+design database-in mysql
+create pages -final round
+-------------------------------
+Web application requirements
+design database:- name BRM
+create databse BRM;
+use BRM;
+create table book(
+bookid int primary key auto_increment,
+title varchar(20) not null,
+price float(7,2) not null,  //COMMENT--total 7 digit and point ke bad 2 digit allowed
+author varchar(20));
+
+File structures-
+style.css -------style html elements
+home.php  ----control panel
+insertform.php ---user interface front end code
+insertion.php -------backend code
+view.php------view database data
+update.php --------front end code
+updation.php ---- backend code
+deleteform.php ----front end
+delation.php ----backend code

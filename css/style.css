@@ -1,0 +1,6 @@
+#mybtnbox{
+	position: relative;
+    display: -ms-inline-flexbox;
+    display: flex;
+    vertical-align: middle; 
+}
